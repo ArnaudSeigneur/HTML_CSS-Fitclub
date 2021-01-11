@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to right,rgba(124, 40, 99, 0.5), rgba(8, 8, 8, 0.5)),url("img/fitness.jpg");
+    background-position: top;
+    background-size: cover;
+    background-color: 124, 40, 99 ;
+    padding: 15px 20px 100px;
+    color: white;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.ins{
+    background-color: rgba(124, 40, 99) ;
+    border: rgba(124, 40, 99);
+    padding: 10px;
+    margin-top: -10px;
+}
+
+header h1{
+    margin-top: 80px;
+    font-weight: 900px;
+    font-style: italic;
+}
+header p{
+    font-weight: 900px;
+    font-style: italic;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin-right: 20px;
+}
+header nav img{
+    height: 40px;
+}
+header a{
+    color: white;
+}
+
+#section1 {
+    max-width: 1060px;
+    margin : auto;
+    text-align: center;
+}
+#section1 div{
+    display: flex;
+}
+#section1 article{
+    position: relative;
+    top : -100px;
+    color: white;
+}
+#section1 .article1{
+    background-image: linear-gradient(to right,rgba(8, 8, 8, 0.5), rgba(8, 8, 8, 0.5)),url("img/fitnessman.jpg");
+    width: 530px;
+    height: 300px;
+    background-size: 530px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#section1 .article2{
+    background-image: linear-gradient(to right,rgba(124, 40, 99, 0.5), rgba(124, 40, 99, 0.5)),url("img/fitnesswoman.jpg");
+    width: 530px;
+    height: 300px;
+    background-size: 530px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2 ul {
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 80px;
+}
+#section2 ul li{
+    border: 1px solid rgba(70, 70, 70, 0.411);
+    width: 25%;
+    height: auto;
+    padding: 30px;
+    margin-bottom: -13px;
+}
+#section2 ul img{
+    height: 50px;
+    width: auto;
+}
+#section3 {
+    background-image: linear-gradient(to right,rgba(124, 40, 99, 0.25) 52%,rgba(8, 8, 8, 1)48%),url("img/crossfit.jpg");
+background-size: cover;
+color:white;
+padding: 130px;
+margin-bottom: -11px;
+}
+#section3 .block{
+    max-width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+#section3 .block .sousblock{
+    width: 50%;
+}
+#section3 h2{
+    padding-top: 25px;
+    font-weight: 900px;
+    font-style: italic;
+}
+#section3 .para{
+    margin-left: 50px;  
+}
+#section3 p{
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+#section4 .images {
+    font-size: 13px;
+    text-align: center;
+    margin-top: -1px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#section4 .images li{
+    border: 1px solid rgba(70, 70, 70, 0.411);
+    width: 31.7%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: -12px;
+}
+#section4 .images li:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.192);
+}
+#section4 .images h3{
+    font-weight: 900px;
+    font-style: italic;
+}
+ifram{
+    margin: -2px;
+    position: relative;
+    z-index: -1;
+}
+.foot{
+    background-color: rgba(124, 40, 99);
+    height: 10px;
+    
+}
+footer{
+    background-color: rgba(8, 8, 8);
+    margin-top: -20px;
+}
+footer .block {
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    width: 33,3%;
+    font-size: 10px;
+}
+footer .block1{
+    background-color: rgba(8, 8, 8);
+    color: white;
+    text-align: end;
+}
+footer .block .block1 img{
+    height: 20px;
+}
+footer .block2{
+    background-color: white !important;
+    text-align: center;
+    color: rgba(8, 8, 8);
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+    border: 1 solid grey;
+}
+footer .block3{
+    background-color: rgba(8, 8, 8);
+    text-align: left;
+    color: white;
+}
+/*@media screen and (min-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 990px){}
+
+@media screen and (max-width: 768px){}*/
